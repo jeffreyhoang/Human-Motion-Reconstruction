@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Intrinsic Calibration{% endblock %}
+
+{% block header %}Intrinsic Calibration{% endblock %}
+
+{% block content%}
+    <form method="post" enctype="multipart/form-data">
+
+        {% csrf_token %}
+
+        <h2>Upload Videos for Intrinsic Calibration</h2>
+        {{ video_upload_form.as_p }}
+
+        <h2>Enter Checkerboard Information</h2>
+        {{ checkerboard_info_form.as_p }}
+
+        <button type="submit">Get intri.yml</button>
+
+    </form>
+{% endblock %}

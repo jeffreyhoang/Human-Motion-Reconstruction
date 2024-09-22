@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Fit SMPL{% endblock %}
+
+{% block header %}Fit SMPL{% endblock %}
+
+{% block content%}
+    <h1>Fit SMPL to get the mesh.</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Get 3D mesh</button>
+    </form>
+{% endblock %}

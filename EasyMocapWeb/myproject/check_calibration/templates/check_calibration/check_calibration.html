@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Check Calibration{% endblock %}
+
+{% block header %}Check Calibration{% endblock %}
+
+{% block content %}
+    <h1></h1>
+    <form action="{% url 'check_calibration' %}" method="post">
+        {% csrf_token %}
+        <button type="submit">Check Calibration</button>
+    </form>
+{% endblock%}

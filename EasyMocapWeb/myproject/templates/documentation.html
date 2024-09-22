@@ -1,0 +1,48 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="{% static 'css/documentation.css' %}">
+</head>
+<body>
+    <h1>Instructions:</h1>
+    <ul class="instructions">
+        <li>
+            <p><strong>Step 1:</strong> Capture videos for camera calibration of internal parameters. Do this by placing the checkerboard on the ground. Then, record a video of the checkerboard, ensuring that the board full board is visible on the camera (videos should be 15-20 seconds). Videos should capture various angles and positions of the checkerboard such as the example shown below:</p>
+            <video width="600" controls>
+                <source src="{% static 'videos/video1.mp4' %}" type="video/mp4">
+            </video>
+        </li>
+        <li>
+            <p><strong>Step 2:</strong> Capture videos for camera calibration of external parameters. Set up your cameras evenly spaced around a center point and place the checkerboard at the center point as shown below:</p>
+            <img src="{% static 'images/07.HEIC' %}" alt="Image" width="200">
+            <p>Then, record a 2 to 3 second video of the checkerboard, in which the board and none of the cameras move. Videos should capture the full checkerboard as shown </p>
+            <img src="{% static 'images/1.jpg' %}" alt="Image" width="200">
+            <img src="{% static 'images/2.jpg' %}" alt="Image" width="200">
+            <img src="{% static 'images/3.jpg' %}" alt="Image" width="200">
+            <img src="{% static 'images/4.jpg' %}" alt="Image" width="200">
+            <img src="{% static 'images/5.jpg' %}" alt="Image" width="200">
+            <img src="{% static 'images/6.jpg' %}" alt="Image" width="200">
+        </li>
+        <li>
+            <p><strong>Step 3:</strong> Capture videos of the human motion you wish to recover. Without moving any of the cameras from step 2, stand at the center point, clap twice loudly (used to synchronize), then perform any human movements.</p>
+            <img src="{% static 'images/08.HEIC' %}" alt="Image" width="200">
+            <p>For better accuracy, ensure that your full body is within the frame of the camera as shown below:</p>
+            <img src="{% static 'images/7.jpg' %}" alt="Image" width="200">
+            <img src="{% static 'images/8.jpg' %}" alt="Image" width="200">
+            <img src="{% static 'images/9.jpg' %}" alt="Image" width="200">
+            <img src="{% static 'images/10.jpg' %}" alt="Image" width="200">
+            <img src="{% static 'images/11.jpg' %}" alt="Image" width="200">
+            <img src="{% static 'images/12.jpg' %}" alt="Image" width="200">
+        </li>
+        <li>
+            <p><strong>Step 4:</strong> Upload the videos to your device and perform synchronization using Adobe Premiere by lining up the audio spikes created from the claps. When you play all the videos at once, ensure that you hear the sound of the claps in unison.</p>
+        </li>
+    </ul>
+</body>
+</html>
