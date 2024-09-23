@@ -5,6 +5,7 @@ This project combines EasyMocap's Github project and Python's Django software to
 ## Process
 
 ### Input video:
+You can watch the demo video [here](https://drive.google.com/file/d/1BlU6zdOJ7lNy20Ruh_X7Za1-ZKFPQ0yO/view?usp=share_link).
 
 ### YOLO is used for human detection and HRNet is used for 2D keypoint detection:
 <img width="963" alt="image" src="https://github.com/user-attachments/assets/b1a9cd3d-a0a5-434b-8d84-65b3c642bc3a">
