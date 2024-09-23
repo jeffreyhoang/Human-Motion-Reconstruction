@@ -24,4 +24,4 @@ https://github.com/user-attachments/assets/56b6237c-06b5-4478-96eb-536619d191ec
 You can watch the demonstration video [here](https://drive.google.com/file/d/1JuEAjWC3q3YsPGRmCS7iILVEPUxV6TDV/view?usp=share_link)
 
 ## Mac Download Instructions
-Check out the 
+Check out the Mac Instructions PDF to view download instructions
