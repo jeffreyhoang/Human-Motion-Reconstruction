@@ -2,6 +2,8 @@
  
 This project combines EasyMocap's Github project and Python's Django software to develope a user interface that automated the process of multi-video syncrhonization, intrinsic and extrinsic camera calibration, and human motion capture and reconstruction.
 
+---
+
 ## Process
 
 ### Input video:
@@ -16,3 +18,7 @@ You can watch the input video [here](https://drive.google.com/file/d/1BlU6zdOJ7l
 ### The SMPL model is fit to the 3D keypoints to obtain an occurate mesh:
 https://github.com/user-attachments/assets/56b6237c-06b5-4478-96eb-536619d191ec
 
+---
+
+## User Interface Demo
+You can watch the demonstration video [here](https://drive.google.com/file/d/1JuEAjWC3q3YsPGRmCS7iILVEPUxV6TDV/view?usp=share_link)
