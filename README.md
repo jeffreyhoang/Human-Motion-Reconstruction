@@ -22,3 +22,10 @@ https://github.com/user-attachments/assets/56b6237c-06b5-4478-96eb-536619d191ec
 
 ## User Interface Demo
 You can watch the demonstration video [here](https://drive.google.com/file/d/1JuEAjWC3q3YsPGRmCS7iILVEPUxV6TDV/view?usp=share_link)
+
+## Mac Download Instructions
+1. Clone the repository
+2. Create a conda environment with python version 3.9
+3. Navigate into the EasyMocapWeb/myproject/EasyMocap directory
+4. Use pip to install the dependencies from the requirements.txt folder, torch, torchvision, and pyrender
+5. Run the command 'python setup.py develop'
